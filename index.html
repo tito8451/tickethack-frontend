@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <title>TicketHack</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="logo" class="bloc">Tickethack</div>
+        <div id="header-button">
+          <div type="text" id="cart" class="bloc">Cart</div>
+          <div type="text" id="bookings" class="bloc">Bookings</div>
+        </div>
+      </div>
+
+      <div id="content-bottom" class="bloc">
+        <div id="text-content">
+          <h1>Explore the world effortlessly by train</h1>
+          <p>
+            Compare, book and enjoy cheap prices for train tickets your journey
+            starts on Tickethack.
+          </p>
+        </div>
+        <div id="content-search">
+          <div id="travel-search" class="container-blanc">
+            <input
+              id="type-departure"
+              class="element-travel-search"
+              type="text"
+              placeholder="Departure"
+            />
+            <input
+              id="type-arrival"
+              class="element-travel-search"
+              type="text"
+              placeholder="Arrival"
+            />
+            <input
+              id="date-selection"
+              class="element-travel-search"
+              type="date"
+            />
+            <button type="button" id="btn-search" class="element-travel-search">
+              Search
+            </button>
+          </div>
+          <div id="display-search" class="container-blanc">
+            <img class="picto" src="images/train.png" />
+            <hr class="ligne-verte" />
+            <p class="quote-train">It's time to book your future trip.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
