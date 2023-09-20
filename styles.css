@@ -98,6 +98,7 @@ body {
   background-color: #469e86;
   color: #ffffff;
   width: 90%;
+  cursor: pointer;
 }
 
 #type-departure {
